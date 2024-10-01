@@ -1,7 +1,7 @@
 <!DOCTYPE html> 	
 <html lang="fi">
 <head>
-  <title>Grigroyn vaellukset</title>
+  <title>Grigoryn Vaellukset</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
       color: darkseagreen;
     }
 
-    /* Flex container for dividing the page into two sides */
+   
     .flex_container {
       display: flex;
       justify-content: space-between;
@@ -28,15 +28,15 @@
     }
 
     .flex_item {
-      width: 48%; /* Adjust width as needed */
+      width: 48%; 
     }
 
     img {
-      max-width: 100%; /* Responsive image width */
-      height: auto; /* Maintain aspect ratio */
+      max-width: 100%; 
+      height: auto; 
     }
 
-    /* Container for centering the footer text */
+   
     .container {
       display: flex;
       justify-content: center;
@@ -49,43 +49,53 @@
     p {
       margin: 0;
     }
+
+    
+    
+    
   </style>
 </head>  
 
 <body>
-  <h1>Grigoryn Vaelluspäiväkirja</h1>
-  <h2>Vaellukset</h2>
-  <nav>
-    <ul>
-      <li><a href="vaelluspäiväkirja.html"><b>kotisivu</b></a></li>
-      <li><a href="vaellukset.html"><b>vaellukset</b> </a>
-      <li><a href="varusteet.html"><b>varusteet </b></a>
-        <li><a href="yhteystiedot.html"><b>yhteystiedot</b> </a>
+  <h1 style="margin-left: 150px;">Grigoryn Vaelluspäiväkirja</h1>
+  
+
+  
+  
   </nav>
     <div class="flex_container">
     <div class="flex_item">
-      <h2>Suoritetut matkat</h2>
-      <p> <a href="nuuksio.html"><b>Nuuksio</b> </a>/ heinäkuu 2024 / </p>
+      <h2 style="margin-left: 30px;">Vaellukset</h2>
       
-  
+  <nav>
+    <ul>
+      <li style="margin-left: 10px;"><a href="vaelluspäiväkirja.html"><b>kotisivu</b></a></li> 
+      <li style="margin-left: 10px;"><a href="vaellukset.html"><b>vaellukset</b> </a>
+      <li style="margin-left: 10px;"><a href="varusteet.html"><b>varusteet </b></a>
+      <li style="margin-left: 10px;"><a href="yhteystiedot.html"><b>yhteystiedot</b> </a>
+      </nav>
 
-      <h2>Tulevat matkat</h2>
-      <p><a href="fjords.html"><b>Fjords</b> </a> / Heinäkuu 2025 /</p>
+        <h2 style="margin-left: 45px;">Suoritetut matkat</h2>
+        <p style="margin-left: 45px;"> <a href="nuuksio.html"><b>Nuuksio</b> </a> / Heinäkuu 2024 / </p>
+      
+        <h2 style="margin-left: 45px;">Tulevat matkat</h2>
+        <p style="margin-left: 45px;"> <a href="fjords.html"><b>Fjords</b> </a> / Heinäkuu 2025 / </p>
+      
      
     </div>
 
     <div class="flex_item">
+       
+      <img src="hiking.jpg" alt="luonto" width="max-width" height="auto">
       
-      
-      <img src="hiking.jpg" alt="Maisemat" height="600" width="1200">
     </div>
   </div>
 
   <div class="container">
     <div>
-      <p>Dig's Cafe</p>
-      <p>Ratapihantie 13</p>
-      <p>00520, Helsinki</p>
+      <p>Grigoryn Vaelluspäiväkirja</p>
+      <p>Nuottalahdentie 32</p>
+      <p>02230, Espoo</p>
     </div>
   </div>
 </body>
