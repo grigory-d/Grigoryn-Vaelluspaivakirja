@@ -1,0 +1,129 @@
+<!DOCTYPE html> 	
+<html lang="fi">
+<head>
+  <title>Nuuksio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="author" content="Grigory">
+
+  <link href="tyyli.css" rel="stylesheet" type="text/css">
+
+  <style>
+    body {
+      background-color: rgb(192, 108, 18);
+      color: rgb(255, 255, 255);
+      font-family: tahoma, arial, helvetica, sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+      color: darkseagreen;
+    }
+
+    .flex_container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .flex_item {
+      width: 48%; 
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%; 
+      height: auto; 
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      text-align: center;
+      padding: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    /* Responsive styling */
+    @media (max-width: 768px) {
+      h1 {
+        margin-left: 10px;
+        font-size: 24px;
+      }
+
+      .flex_container {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .flex_item {
+        width: 100%; 
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        margin-left: 10px;
+        font-size: 20px;
+      }
+
+      p {
+        margin-left: 10px;
+        font-size: 16px;
+      }
+
+      .container {
+        height: auto;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>  
+
+<body>
+  <h1 style="margin-left: 50px;">Grigoryn Vaelluspäiväkirja</h1>
+  
+  <div class="flex_container">
+    <div class="flex_item">
+      <h2 style="margin-left: 30px;">Vaellukset</h2>
+      
+      <nav>
+        <ul>
+          <li style="margin-left: 10px;"><a href="index.html"><b>kotisivu</b></a></li> 
+          <li style="margin-left: 10px;"><a href="vaellukset.html"><b>vaellukset</b></a></li>
+          <li style="margin-left: 10px;"><a href="varusteet.html"><b>varusteet</b></a></li>
+          <li style="margin-left: 10px;"><a href="yhteystiedot.html"><b>yhteystiedot</b></a></li>
+        </ul>
+      </nav>
+
+      <h2 style="margin-left: 45px;">Nuuksio</h2>
+      <p style="margin-left: 45px;"> Innostuin vaelluksesta kesällä 2024, 
+      joten Nuuksio oli ensimmäinen vaelluspaikkani. 
+      Menin sinne teltan kanssa yöksi ja 
+      otin mukaan riittävästi ruokaa - 
+      itse asiassa sitä jäi vielä ylikin!</p>
+      <nav>
+        <ul>
+          <li style="margin-left: 10px;"><a href="vaellukset.html"><b>Takaisin</b></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="flex_item">
+      <img src="nuuksio.jpg" alt="fjords" width="max-width" height="auto">
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <p>Grigoryn Vaelluspäiväkirja</p>
+    </div>
+  </div>
+</body>
+</html>
